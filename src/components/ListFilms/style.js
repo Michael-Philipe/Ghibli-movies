@@ -4,5 +4,5 @@ export const FilmsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 3rem;
+  background-color: #869dcf;
 `;

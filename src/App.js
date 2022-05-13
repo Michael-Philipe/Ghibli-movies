@@ -1,9 +1,14 @@
-import ListFilms from './components/ListFilms';
+import Header from './components/Header';
+import GlobalStyle from './global/globalStyle';
+import RoutesWrapper from './routes/index';
 
 function App() {
   return (
     <>
-      <ListFilms />
+      <GlobalStyle />
+      <Header />
+      {/* <Dashboard /> */}
+      <RoutesWrapper />
     </>
   );
 }

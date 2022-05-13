@@ -7,6 +7,13 @@ export const FilmWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  cursor: pointer;
   transition: 0.7s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12), box-shadow 0.7s;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+  }
 `;
