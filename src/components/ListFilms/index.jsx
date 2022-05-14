@@ -3,6 +3,7 @@ import { FilmsContainer, InputContainer } from './style';
 import { useGetFilmByIdQuery } from '../../services/films';
 import { useEffect, useState } from 'react';
 import Loading from '../Loading';
+import Form from '../Form';
 
 function ListFilms() {
   const { data, error, isLoading } = useGetFilmByIdQuery();
@@ -28,21 +29,11 @@ function ListFilms() {
   return (
     <>
       <InputContainer>
-        <form>
-          <input
-            id='search'
-            type='text'
-            placeholder='Search movies..'
-            value={searchText}
-            onChange={(e) => {
-              setSearchText(e.target.value);
-            }}
-          />
-          <label for='search'></label>
-        </form>
+        <Form searchText={searchText} setSearchText={setSearchText} />
       </InputContainer>
       <FilmsContainer>
         {error ? (
+          //fazer componente de erro
           <>Oh no, there was an error</>
         ) : isLoading ? (
           <Loading />
