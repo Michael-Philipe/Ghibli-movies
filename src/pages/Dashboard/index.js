@@ -4,9 +4,9 @@ import ListFilms from '../../components/ListFilms';
 
 const Dashboard = () => {
   return (
-    <div>
+    <>
       <ListFilms />
-    </div>
+    </>
   );
 };
 

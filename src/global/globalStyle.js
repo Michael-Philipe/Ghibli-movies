@@ -13,6 +13,8 @@ const GlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased !important;
         height: 100vh;
         font-family: var(--primary-font);
+        background-color: #869dcf;
+        overflow-x: hidden;
     }
 
 
