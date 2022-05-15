@@ -10,7 +10,7 @@ function InfoFilm() {
   const { data, error, isLoading } = useGetFilmByIdQuery(params.id);
 
   return (
-    <>
+    <div>
       {error ? (
         <>Oh no, there was an error</>
       ) : isLoading ? (
@@ -43,7 +43,7 @@ function InfoFilm() {
           </DescriptionWrapper>
         </>
       ) : null}
-    </>
+    </div>
   );
 }
 

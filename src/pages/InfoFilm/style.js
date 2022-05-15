@@ -18,6 +18,7 @@ export const Background = styled.div`
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
     border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 15vh;
     h1 {
       font-size: 3rem;
     }

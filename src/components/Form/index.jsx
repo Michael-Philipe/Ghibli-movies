@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Form = ({ searchText, setSearchText }) => {
   return (
-    <form>
+    <form style={{ marginTop: '10vh' }}>
       <Input
         id='search'
         type='text'

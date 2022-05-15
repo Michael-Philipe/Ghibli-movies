@@ -5,6 +5,10 @@ export const HeaderContainer = styled.header`
   height: 10vh;
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #7ba4d9;
 
   .content {
     max-width: 1170px;
@@ -15,27 +19,6 @@ export const HeaderContainer = styled.header`
     h1 {
       font-size: 3rem;
       margin-left: 1rem;
-    }
-    img {
-      position: fixed;
-      height: 35%;
-      right: 0px;
-      bottom: 0vh;
-      margin-left: 10px;
-      transform: translatey(0px);
-      animation: float 2.5s infinite;
-    }
-
-    @keyframes float {
-      0% {
-        transform: translatey(0px);
-      }
-      50% {
-        transform: translatey(-10px);
-      }
-      100% {
-        transform: translatey(0px);
-      }
     }
   }
 `;
