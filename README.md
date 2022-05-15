@@ -29,7 +29,7 @@ Clone este repositório digitando `git clone https://github.com/Michael-Philipe/
 Execute `npm install` em sua linha de comando.
 
 ### Uso
-Navegue até o diretório do projeto `cd studio_ghibli` e execute `npm start`.
+Navegue até o diretório do projeto `cd Ghibli-movies` e execute `npm start`.
 
 ## Autor
 
